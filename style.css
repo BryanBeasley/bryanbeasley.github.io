@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  background-color: rgba(0 0 0 6) !important;
+  padding: 20px 0;
+}
+.navbar-dark .nav .nav-link {
+  color: #fff;
+  padding-left: 20px;
+}
+.navbar-dark .nav .nav-link.active,
+.navbar-dark .nav .nav-link:hover {
+  color: rgb(216, 131, 192);
+}
+.background img {
+  filter: brightness(50%);
+}
+
+.heading-content {
+  position: absolute;
+  bottom: 20%;
+  padding-bottom: 50px;
+  width: 100%;
+  max-width: 100%;
+}
+
+.heading-content h5 {
+  font-size: 4em;
+  font-weight: 300;
+  color: transparent;
+  font-family: monospace;
+}
+
+.heading-content h1 {
+  font-size: 5em;
+  font-weight: bolder;
+  color: transparent;
+  font-family: "Montserrat", sans-serif;
+}
+
+.heading-content p {
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: lighter;
+  color: violet;
+  text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff,
+    0 0 40px #ee82ee, 0 0 70px #ee82ee, 0 0 80px #ee82ee, 0 0 100px #ee82ee,
+    0 0 170px #ee82ee;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+}
+.color-text {
+  background-image: linear-gradient(
+    to left,
+    #ee82ee,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red
+  );
+  -webkit-background-clip: text;
+}
+
+/*         About section      */
+.couple {
+  border-radius: 20px;
+  filter: drop-shadow(-20px 15px 10px rgb(248, 157, 104));
+}
+
+#about .btn {
+  border: 2px solid transparent;
+  width: 40%;
+  padding: 15px 22px;
+  background: #000;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+#about .btn a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#about .btn:hover {
+  border: 2px solid rgb(114, 78, 181);
+  cursor: pointer;
+}
+#about .btn a:hover {
+  background-color: rgb(114, 78, 181);
+}
+/* TODO *********************TODO****************TODO  */
+/* ? Have letters in btn turn colors when hovering over button, not just when you hover over text */
+
+.splash {
+  animation-name: focus;
+  animation-duration: 10s;
+  animation-iteration-count: 60s;
+  background-color: grey;
+}
+@keyframes focus {
+  10% {
+    background-color: violet;
+  }
+  20% {
+    background-color: indigo;
+  }
+  30% {
+    background-color: blue;
+  }
+  40% {
+    background-color: green;
+  }
+  50% {
+    background-color: yellow;
+  }
+  60% {
+    background-color: orange;
+  }
+  70% {
+    background-color: red;
+  }
+  80% {
+    background-color: orange;
+  }
+  90% {
+    background-color: green;
+  }
+  100% {
+    background-color: indigo;
+  }
+}
+
+.photobox {
+  filter: hue-rotate(110deg);
+}
