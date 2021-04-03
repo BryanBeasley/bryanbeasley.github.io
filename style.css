@@ -26,6 +26,7 @@ body {
   color: rgb(216, 131, 192);
 }
 .background img {
+  position: relative;
   filter: brightness(50%);
 }
 
@@ -40,42 +41,31 @@ body {
 .heading-content h5 {
   font-size: 4em;
   font-weight: 300;
-  color: transparent;
+  color: white;
   font-family: monospace;
 }
 
 .heading-content h1 {
   font-size: 5em;
   font-weight: bolder;
-  color: transparent;
+  color: white;
   font-family: "Montserrat", sans-serif;
 }
 
 .heading-content p {
   font-size: 1em;
+  margin-left: 60%;
+  padding: 10px 20%;
   text-transform: uppercase;
   font-weight: lighter;
-  color: violet;
-  text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff,
-    0 0 40px #ee82ee, 0 0 70px #ee82ee, 0 0 80px #ee82ee, 0 0 100px #ee82ee,
-    0 0 170px #ee82ee;
+  color: white;
   word-spacing: 5px;
   letter-spacing: 2px;
 }
-.color-text {
-  background-image: linear-gradient(
-    to left,
-    #ee82ee,
-    indigo,
-    blue,
-    green,
-    yellow,
-    orange,
-    red
-  );
-  -webkit-background-clip: text;
-}
 
+.bodyMain {
+  top: 500px;
+}
 /*         About section      */
 .couple {
   border-radius: 20px;

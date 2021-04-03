@@ -1,255 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
-    <title>Bryan Beasley</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
-      crossorigin="anonymous"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <script src="https://kit.fontawesome.com/ea1e775cea.js" crossorigin="anonymous"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beasley.Bryan</title>
+<!-- bootstrap css -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 
-  </head>
-  <body>
-    <div id="home">
-      <!-- !Navigation Bar Start -->
-      <nav
-        class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top justify-content-center"
-      >
-        <div class="collaspe navbar-collaspe" id="navbarTogglerDemo2">
-          <ul class="nav mx-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Resume</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+
+
+<!-- fontAwesome -->
+<script src="https://kit.fontawesome.com/ea1e775cea.js" crossorigin="anonymous"></script>
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- start navbar -->
+  <header class="header_area">
+    <div class="main-menu">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid name-logo">
+          <a class="navbar-brand logo" href="index.html"><img src="./assets/LogoMakr-4kLJfH (1).png" alt="logo">Beasley.Bryan</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#link-about">About</a>
+              <a class="nav-link" href="#link-projects">Projects</a>
+              <a class="nav-link" href="resume.html">Resume</a>
+              <a class="nav-link" href="contact.html">Contact</a>
+              
+            </div>
+          </div>
         </div>
       </nav>
-      <!--! Navigation Bar End -->
-      <!-- SECTION BREAK -->
-      <!--!  Background Start -->
-      <div class="background img-fluid">
-        <img
-          src="./assets/blade-of-grass-1528497_1920.jpg"
-          class="img-fluid"
-          alt="blade-of-grass"
-        /> 
-      </div>
-      <div class="heading-content text-center">
-        <!-- <video autoplay muted loop src="./assets/Purple Flow Of Colors.mp4" type="video/mp4"  ></video> -->
-        <h5 class="color-text">Hello I'm</h5>
-        <h1 class="color-text" >Bryan Beasley</h1>
-        <p>I like to create</p>
-      </div>
-      <!--! Background End -->
     </div>
-    <!-- SECTION BREAK -->
-    <!--! MAIN SECTION START -->
+  </header>
 
-    <!-- TODO about start -->
-    <div id="about" class="container mt-3 pb-5">
-      <div class="post-heading text-center">
-        <h3 class="display-4 font-weight-bold">About Me</h3>
-        <hr class="w-50 mx-auto pb-5 splash" />
+  <!--  Start main area-->
+
+  <!--  Banner Area -->
+  <main class="site-main">
+
+    <section class="site-banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 site-title">
+            <h3 class="title-text">Hello</h3>
+            <h1 class="title-text text-uppercase">Welcome to my portfolio</h1>
+            <h4 class="title-text text-uppercase"></h4>
+            <div class="d-flex flex-row flex-wrap">
+            <div class="site-buttons">
+              <a href="contact.html">
+             <button type="button" class="btn button primary-button mr-4 text-uppercase">hire me</button></a>
+             <a href="#link-projects">
+             <button type="button" class="btn button primary-button text-uppercase">Projects</button></a>
+
+            </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 banner-image">
+            <img src="./assets/ClipartKey_624405.png" alt="BannerImg" class="img-fluid" >
+          </div>
+        </div>
       </div>
+    </section>
+  </main>
+  <!--  End Banner Area -->
+
+  <!--  About  -->
+
+  <section class="about-area" id="link-about">
+    <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-6 col-md-6 col-12">
-          <img src="./assets/wife&I.jpg" class="img-fluid couple" alt="" />
+        <div class="col-lg-6 col-md-12 img-box">
+          <div class="about-image">
+            <img src="./assets/wife_I.jpg" alt="About" class="img-fluid self-pic">
+          </div>
         </div>
-        <div class="col-lg-6 col-md-6 col-12">
-          <h2>My Story</h2>
-          <hr />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-            aperiam accusamus quod laboriosam molestiae illo nostrum. Libero ab
-            iusto esse ex harum natus fuga consequuntur illo quia! Repellendus,
-            aspernatur eligendi.
-          </p>
-          <button class="btn w-50">
-            <a href="#">Learn More</a>
-          </button>
+
+       
+        <div class="col-lg-6 col-md-12 about-title">
+          <h2 class="text-uppercase pt-5">
+            <span>Let me</span>
+            <span>introduce</span>
+            <span>myself</span>
+          </h2>
+          <div class="paragraph py-4 w-75">
+            <p class="para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, aperiam qui quisquam cum maxime similique repellendus sequi reiciendis nobis libero, quibusdam, architecto quo molestiae. Corporis libero totam similique sequi quaerat.
+            </p>
+            <p class="para">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus alias, harum reprehenderit ducimus natus esse deleniti corporis quam et rem veritatis officiis dolores itaque sunt quos repellendus eaque sequi praesentium.
+            </p>
+          </div>
+        
+
+        <a href="./assets/BryanBeasleyResume2020.pdf" download>
+          <button type="button" class="btn button primary-button text-uppercase" >Download Resume</button>
+        </a>
         </div>
       </div>
     </div>
-    <!-- TODO about end -->
-    <!-- TODO portfolio start -->
-    <div id="portfolio" class="container mt-3 pb-5">
-      <div class="post-heading text-center">
-        <h3 class="display-4 font-weight-bold">Portfolio</h3>
-        <hr class="w-50 mx-auto pb-5 splash" />
-      </div>
-      <div class="row">
-        <div class="col-lg-4 col-md-6 col-12 pb-5">
-          <div class="card" style="width: 18rem">
-            <img
-              class="card-img-top photobox"
-              src="./assets/cssCreature.JPG"
-              alt="Card image cap"
-            />
-            <div class="card-body">
-              <h5 class="card-title">1150 project 1</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="btn btn-dark">Preview</a>
-            </div>
-          </div>
-        </div>
+  </section>
 
-        <div class="col-lg-4 col-md-6 col-12 pb-5">
-          <div class="card phototop" style="width: 18rem">
-            <img
-              class="card-img-top photobox"
-              src="./assets/swStaticLayout.JPG"
-              alt="Card image cap"
-            />
-            <div class="card-body">
-              <h5 class="card-title">1150 project 1</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="btn btn-dark">Preview</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 col-12 pb-5">
-          <div class="card" style="width: 18rem">
-            <img
-              class="card-img-top"
-              src="./assets/laptop-336704_1920.jpg"
-              alt="Card image cap"
-            />
-            <div class="card-body">
-              <h5 class="card-title">1150 project 1</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="btn btn-dark">Preview</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 col-12 pb-5">
-          <div class="card" style="width: 18rem">
-            <img
-              class="card-img-top"
-              src="./assets/laptop-336704_1920.jpg"
-              alt="Card image cap"
-            />
-            <div class="card-body">
-              <h5 class="card-title">1150 project 1</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="btn btn-dark">Preview</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 col-12 pb-5">
-          <div class="card" style="width: 18rem">
-            <img
-              class="card-img-top"
-              src="./assets/laptop-336704_1920.jpg"
-              alt="Card image cap"
-            />
-            <div class="card-body">
-              <h5 class="card-title">1150 project 1</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="btn btn-dark">Preview</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 col-12 pb-5">
-          <div class="card" style="width: 18rem">
-            <img
-              class="card-img-top"
-              src="./assets/laptop-336704_1920.jpg"
-              alt="Card image cap"
-            />
-            <div class="card-body">
-              <h5 class="card-title">1150 project 1</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="btn btn-dark">Preview</a>
-            </div>
-          </div>
-        </div>
-      </div>
+  <!-- Projects area -->
+   <div class="container projects-area" id="link-projects">
+     <div class="row row-cols-1 row-cols-md-3">
+       <div class="col mb-4 card-box">
+     <div class="card h-100">
+       <img src="./assets/cssCreature.JPG" class="img-fluid card-img-top" alt="creature">
+       <h3 class="card-title">CSS </h3>
+       <h5 class="card-subtitle">Creature</h5>
+       <p>Introductory demonstration to create a CSS creature or cartoon. In doing so I learned the use of HTML tags, classes, ID's along with the hierarchy and nesting of each. This also taught me the connection between HTML and CSS while creating an aesthetically pleasing image along with animated snow. </p>
+     </div>
     </div>
-    <!-- TODO portfolio end -->
-    <!-- TODO resume start -->
-    <div id="portfolio" class="container mt-3 pb-5">
-      <div class="post-heading text-center">
-        <h3 class="display-4 font-weight-bold">Resume</h3>
-        <hr class="w-50 mx-auto pb-5 splash" />
-      </div>
+    <div class="col mb-4">
+     <div class="card h-100">
+      <img src="./assets/swStaticLayout.JPG" class="img-fluid card-img-top" alt="SW Site">
+      <h3 class="card-title">StarWars</h3>
+      <h5 class="card-subtitle">Static Layout</h5>
+      <p>Static layout recreation of the StarWars.com website using HTML and CSS only.</p>
     </div>
-    <!-- TODO resume end -->
-    <!-- TODO contact start -->
-    <div id="Contact" class="w-50 mx-auto mt-5">
-      <div class="post-heading text-center">
-        <h3 class="display-4 font-weight-bold">Contact</h3>
-        <hr class="w-50 mx-auto pb-5 splash" />
-      </div>
-      <form action="/action_page.php">
-        <div class="form-group">
-          <label for="email">Full Name:</label>
-          <input type="text" class="form-control" id="email" />
-        </div>
-        <div class="form-group">
-          <label for="email">Email address:</label>
-          <input type="email" class="form-control" id="email" />
-        </div>
-        <div class="form-group">
-          <label for="email">Message:</label>
-          <textarea class="form-control" name="Message" id="textarea" cols="30" rows="10"></textarea>
-        </div>
-        <button type="submit" class="btn btn-dark">Submit</button>
-      </form>
     </div>
-    <!-- TODO contact end -->
-    <!--! MAIN SECTION END -->
-    <!-- Footer -->
+    <div class="col mb-4">
+     <div class="card h-100">
+      <img src="./assets/Screen Shot 2021-04-02 at 8.00.04 AM.png" class="img-fluid card-img-top redcard" alt="Pokedex API">
+      <h3 class="card-title">Pokemon "Beasley-Dex"</h3>
+      <h5 class="card-subtitle">API Fetch</h5>
+      <p>Utilizing the Pokemon API created a Pokedex that of the original 100 Pokemon using Javascript fetch function to display pertinent information for each Pokemon</p>
+    </div>
+    </div>
+    <div class="col mb-4">
+     <div class="card h-100">
+      <img src="./assets/Screen Shot 2021-04-02 at 8.05.36 AM.png" class="img-fluid card-img-top redcard" alt="Unsplash">
+      <h3 class="card-title">Unsplash Photo Search</h3>
+      <h5 class="card-subtitle">API Fetch with Key</h5>
+      <p>Utilizing the Unsplash API, created a standard photo search page. </p>
+    </div>
+    </div>
+    <div class="col mb-4">
+     <div class="card h-100">
+      <img src="./assets/bluephoto.jpeg" class="img-fluid card-img-top" alt="Blue Badge">
+      <h3 class="card-title">Blue Badge</h3>
+      <h5 class="card-subtitle">Coming Soon</h5>
+      <p></p>
+    </div>
+    </div>
+    <div class="col mb-4">
+     <div class="card h-100">
+      <img src="./assets/redphoto.jpeg" class="img-fluid card-img-top redcard" alt="Red Badge">
+      <h3 class="card-title">Red Badge</h3>
+      <h5 class="card-subtitle">Coming Soon</h5>
+      <p></p>
+    </div>
+    </div>
+    
+  </div>
+   </div>
+ 
+  <!-- Footer -->
   <div class="row footer text-center text-dark sticky-bottom justify-content-center">
-    <div class="container pt4">
-      <section class="mb-4">
-        <a class="btn btn-link btn-floating btn-lg text-light m-1" href="#" role="button" data-mdb-ripple-color="dark"><i class="fab fa-facebook" ></i></a>
-        <a class="btn btn-link btn-floating btn-lg text-light m-1" href="#" role="button" data-mdb-ripple-color="dark"><i class="fab fa-instagram" ></i></a>
-        <a class="btn btn-link btn-floating btn-lg text-light m-1" href="#" role="button" data-mdb-ripple-color="dark"><i class="fab fa-twitter" ></i></a>
-        <a class="btn btn-link btn-floating btn-lg text-light m-1" href="#" role="button" data-mdb-ripple-color="dark"><i class="fab fa-linkedin-in" ></i></a>
-        <a class="btn btn-link btn-floating btn-lg text-light m-1" href="#" role="button" data-mdb-ripple-color="dark"><i class="fab fa-github" ></i></a>
+    <div class="container pt4" >
+      <section class="mb-4" >
+        <a class="btn btn-link btn-floating btn-lg text-light m-1" href="https://www.facebook.com/runbikebryan" target="_blank" role="button" data-mdb-ripple-color="dark"><i class="fab fa-facebook" ></i></a>
+        <a class="btn btn-link btn-floating btn-lg text-light m-1" href="https://www.instagram.com/beasley.bryan85/" target="_blank" role="button" data-mdb-ripple-color="dark"><i class="fab fa-instagram" ></i></a>
+        <a class="btn btn-link btn-floating btn-lg text-light m-1" href="https://twitter.com/BeasleyBryan85" target="_blank" role="button" data-mdb-ripple-color="dark"><i class="fab fa-twitter" ></i></a>
+        <a class="btn btn-link btn-floating btn-lg text-light m-1" href="https://www.linkedin.com/in/bryan-beasley-845076b5/"  target="_blank" role="button" data-mdb-ripple-color="dark"><i class="fab fa-linkedin-in" ></i></a>
+        <a class="btn btn-link btn-floating btn-lg text-light m-1" href="https://github.com/BryanBeasley" target="_blank" role="button" data-mdb-ripple-color="dark"><i class="fab fa-github" ></i></a>
       </section>
 
     </div>
    
   </div>
-      
-    </footer>
-  </body>
+  <!-- js file  -->
+  <script src="./js/main.js" ></script>
+  
+</body>
 </html>
