@@ -97,16 +97,15 @@ body {
 .about-area {
   padding: 5rem 5rem;
 }
-
 .about-area .about-title .paragraph > p {
   padding: 0.4rem 0;
 }
 .img-box {
-  padding-top: 59px;
+  padding-top: 20px;
 }
 .about-area .about-image img {
-  width: 300px;
-  margin-left: 10%;
+  width: 475px;
+  margin-left: 20%;
   border-radius: 45px;
 }
 
@@ -160,13 +159,13 @@ body {
 
 .projects-area {
   padding-top: 153px;
-  margin-left: 10%;
 }
 
 .projects-area .card {
   border: transparent;
   width: 300px;
   height: 200px;
+  border-radius: 35px;
 }
 
 .projects-area .card > img {
